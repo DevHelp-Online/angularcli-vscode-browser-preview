@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularcli-vscode-debug';
+
+  testDebugging() {
+    this.title = 'browser preview works!!';
+  }
 }
